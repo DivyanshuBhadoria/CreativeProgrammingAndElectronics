@@ -5,3 +5,6 @@ another line
 another line
 
 hi
+
+**bold**
+*italics*
