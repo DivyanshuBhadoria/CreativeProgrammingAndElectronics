@@ -41,7 +41,7 @@ triangle(20,240,20,260,10,260);
 fill(204,204,204); //grey background color
 triangle(170,240,170,260,160,260);
 
-//Side parallelogram
+//Left Side parallelogram
 stroke(0,0,0);
 fill(217,157,41);
 rect(10,20,10,220);
