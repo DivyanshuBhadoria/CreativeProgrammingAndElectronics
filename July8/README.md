@@ -1,6 +1,6 @@
 Picture of Self Portrait:
 
-![](20200409_151850.jpg)
+![](SelfPortrait.png)
 
 There is a book floating near my head because I have loved reading books for majority of my life.
 
