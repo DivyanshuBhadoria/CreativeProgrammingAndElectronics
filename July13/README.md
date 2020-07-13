@@ -1,3 +1,3 @@
 Picture of Rain
 
-![](raining.png)
+![](Raining.png)
