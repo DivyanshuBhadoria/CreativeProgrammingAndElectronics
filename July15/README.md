@@ -1,4 +1,4 @@
-Picture of Rain
+Picture of Game
 
 ![](Game.png)
 
