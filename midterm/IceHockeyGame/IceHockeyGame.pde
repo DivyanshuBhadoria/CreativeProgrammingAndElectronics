@@ -53,7 +53,7 @@ void draw() {
       restart = true;
       gameEnd = false;
     }
-  //Restart the game (Reinitialize all variables)
+    //Restart the game (Reinitialize all variables)
   } else if (restart) {
     for (int i = 0; i < boxNum; i++) {
       boxes[i].appears = true;
