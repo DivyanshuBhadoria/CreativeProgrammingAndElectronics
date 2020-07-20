@@ -6,11 +6,15 @@ class Ball {
   float direcx = random(1, 4);
   float direcy = 5.0-direcx;
   boolean gameEnd = false;
+  //create index color variable
+  int colors = 0;
+  int colorCounter = 0;
+  color colorValue = color(148,0, 211);
   void update() {
     //Update location of ball
     ballx+=direcx;
     bally+=direcy;
-    fill(0,148,158);
+    fill(colorValue);
     ellipse(ballx,bally,20,20);
   }
   void checkBounce() {
