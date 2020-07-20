@@ -17,7 +17,7 @@ String text = "";
 int boxNum = 6;
 //Coordinates of boxes
 int[] boxCoordinates = {0, 280, 67, 280, 134, 280, 201, 280, 268, 280, 335, 280};
-color[] boxColors = {color(148, 0, 211), color(153, 51, 102), color(51, 204, 204), color(0, 255, 0), color(255, 127, 0), color(255, 0, 0)};
+color[] rainbowColors = {color(148, 0, 211), color(153, 51, 102), color(51, 204, 204), color(0, 255, 0), color(255, 127, 0), color(255, 0, 0)};
 //Number of boxes the player has beaten
 int boxesBeat = 0;
 SoundFile bounceSound;
@@ -34,7 +34,7 @@ void setup() {
     boxes[i] = new Box();
     boxes[i].x = boxCoordinates[i*2];
     boxes[i].y = boxCoordinates[i*2+1];
-    boxes[i].z = boxColors[i];
+    boxes[i].z = rainbowColors[i];
   }
   //Initialize the soundfiles
   bounceSound = new SoundFile(this, "Spring-Boing.mp3");
@@ -108,6 +108,13 @@ void draw() {
         //update and check if ball needs to bounce for all balls in-game
         balls[i].update();
         balls[i].checkBounce();
+        //Change color if 10 frames have passed
+        if(balls[i].colorCounter == 10) {
+          balls[i].colorCounter = 0;
+          balls[i].colors = (balls[i].colors+1)%6;
+          balls[i].colorValue = rainbowColors[balls[i].colors];
+        }
+        balls[i].colorCounter++;
         //Check if game is over
         if (balls[i].gameEnd) {
           textSize(32);
