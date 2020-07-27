@@ -4,3 +4,4 @@ The trickiest thing in the project was to play the music without using delay. I 
 
 Here is a picture of my schematic:
 
+![](Schematic.pdf)
