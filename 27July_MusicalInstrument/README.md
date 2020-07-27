@@ -5,3 +5,10 @@ The trickiest thing in the project was to play the music without using delay. I 
 Here is a picture of my schematic:
 
 ![](Schematic.png)
+
+Here is a youtube link to the video: https://www.youtube.com/watch?v=ghKSseJq83E
+
+Pictures of the instrument/electronics:
+
+![](116122073_676841739580634_1863300924587164580_n.jpg)
+![](116545394_576005786400243_7882370414738095784_n.jpg)
