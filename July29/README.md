@@ -12,3 +12,4 @@ Here is a picture of my schematic:
 
 Here is a picure of my electronics:
 
+![](116591631_280800236542060_2483855742708824763_n.jpg)
