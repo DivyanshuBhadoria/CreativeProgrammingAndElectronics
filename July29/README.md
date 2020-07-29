@@ -1,1 +1,3 @@
+Here is a picture of my schematic
 
+![](116033966_617882792463788_1284590302240507135_n.jpg)
