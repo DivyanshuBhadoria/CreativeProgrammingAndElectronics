@@ -12,4 +12,8 @@ growth. I will play the sounds using the piezzo buzzer if possible.
 
 The riskiest part of my project is making that tree because I am not completely sure how
 
-I will implement it yet. Another risk is if the piezzo buzzer works with processing.
+I will implement it yet with branches or not, etc. I need to decide immediately and start
+
+coding. Another risk is if the piezzo buzzer works with processing however if it doesn't 
+
+I can just use computer audio.
