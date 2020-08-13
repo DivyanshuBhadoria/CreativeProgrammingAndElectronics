@@ -16,4 +16,6 @@ Here is my schematic:
 
 ![](finalSchematic.png)
 
+And here is a picture of my electronics:
 
+![](electronics.jpg)
