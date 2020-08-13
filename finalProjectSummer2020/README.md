@@ -2,3 +2,7 @@ My project is a game where you control the growth of a tree. Your goal is to cat
 
 using your two controls, a potentiometer and photoresister.
 
+Here is a quick picture:
+
+![](FinalProjectPicture)
+
