@@ -4,5 +4,5 @@ using your two controls, a potentiometer and photoresister.
 
 Here is a quick picture:
 
-![](FinalProjectPicture)
+![](FinalProjectPicture.png)
 
