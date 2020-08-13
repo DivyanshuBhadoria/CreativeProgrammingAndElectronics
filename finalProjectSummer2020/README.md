@@ -19,3 +19,7 @@ Here is my schematic:
 And here is a picture of my electronics:
 
 ![](electronics.jpg)
+
+A link to my video on youtube:
+
+https://www.youtube.com/watch?v=QloW-mHUXdE
