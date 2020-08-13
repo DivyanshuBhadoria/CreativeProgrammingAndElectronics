@@ -12,5 +12,8 @@ One of the problems I faced was that I wanted to animate the moving birds withou
 
 was to continue refreshing the whole screen, but also redraw the tree.
 
+Here is my schematic:
+
+![](finalSchematic.png)
 
 
