@@ -10,7 +10,7 @@ Here is a quick picture:
 
 One of the problems I faced was that I wanted to animate the moving birds without erasing the tree. My final solution
 
-was to continue refreshing the whole screen, but also redraw the tree.
+was to save the coordinates of the tree, and redraw it every frame.
 
 Here is my schematic:
 
